@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serba Ikan</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+
+<body class="bg-light dark:bg-dark">
+    <header class="bg-light absolute top-0 left-0 w-full border-b-[0.5px] border-gray-700 shadow-sm flex items-center z-10 dark:bg-dark">
+        <div class="container mx-auto md:px-6">
+            <div class="flex items-ce nter justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-2xl md:text-3xl text-primary py-6 block">Icon<span>Sample</span></a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-4 flex font-semibold group-hover:text-primary dark:text-white">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#" class="text-base text-dark py-2 mx-4 flex font-semibold group-hover:text-primary dark:text-white">Nav-item</a>
+                            </li>
+                            <li class="group">
+                                <a href="#" class="text-base text-dark py-2 mx-4 flex font-semibold group-hover:text-primary dark:text-white">Nav-item</a>
+                            </li>
+                            <li class="group">
+                                <a href="#" class="text-base text-dark py-2 mx-4 flex font-semibold group-hover:text-primary dark:text-white">Nav-item</a>
+                            </li>
+                            <li class="flex items-center pl-8">
+                                <div class="flex">
+                                    <span class="mr-2 text-sm text-slate-500">light</span>
+                                    <input type="checkbox" class="hidden" id="dark-toggle">
+                                    <label for="dark-toggle">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                                        </div>
+                                    </label>
+                                    <span class="ms-2 text-sm text-slate-500">dark</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero bg-light pt-24 md:px-14 min-h-screen dark:bg-dark">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="imaged flex-1">
+                <img src="assets/img/hero.jpeg" class="md:max-w-lg rounded-lg shadow-2xl" />
+            </div>
+            <div class="flex-1 px-4 md:px-2 text-dark dark:text-light">
+                <h1 class="text-3xl md:text-5xl font-bold">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p class="py-3 text-xs md:text-lg md:py-6">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <section id="menu" class="min-h-96 pt-32 pb-36 bg-cyan-200">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="text-dark text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-3">Article Sample</h2>
+                    <p class="text-xs md:text-lg text-slate-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, quo.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 pt-12 pb-10">
+                    <div class="card card-compact bg-light dark:bg-slate-600 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark dark:text-light">
+                            <h2 class="card-title">Shoes!</h2>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-end">
+                            <button class="btn btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flex justify-center">
+                    <a href="#" class="btn btn-md btn-primary mx-auto">Show All Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="article" class="min-h-96 pt-32 pb-36 bg-cyan-400">
+        <div class="container">
+            <div class="w-full px-4 md:px-20 mx-auto">
+                <div class="text-dark text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-purple-600 mb-3">Menu Sample</h2>
+                    <p class="text-xs md:text-lg text-slate-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, corporis. Consequatur, temporibus sint?</p>
+                </div>
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 pt-12 pb-10">
+                    <div class="card card-compact bg-slate-100 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark">
+                            <p class="text-xs">Friday, 31 August 2024</p>
+                            <h2 class="font-semibold text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                            <p class="text-xs">If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-between content-center">
+                                <p class="content-center">by <span class="font-semibold mb-0">Admin</span></p>
+                                <button class="btn btn-sm btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-slate-100 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark">
+                            <p class="text-xs">Friday, 31 August 2024</p>
+                            <h2 class="font-semibold text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                            <p class="text-xs">If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-between content-center">
+                                <p class="content-center">by <span class="font-semibold mb-0">Admin</span></p>
+                                <button class="btn btn-sm btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-slate-100 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark">
+                            <p class="text-xs">Friday, 31 August 2024</p>
+                            <h2 class="font-semibold text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                            <p class="text-xs">If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-between content-center">
+                                <p class="content-center">by <span class="font-semibold mb-0">Admin</span></p>
+                                <button class="btn btn-sm btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-slate-100 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark">
+                            <p class="text-xs">Friday, 31 August 2024</p>
+                            <h2 class="font-semibold text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                            <p class="text-xs">If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-between content-center">
+                                <p class="content-center">by <span class="font-semibold mb-0">Admin</span></p>
+                                <button class="btn btn-sm btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-slate-100 w-full shadow-xl">
+                        <figure>
+                            <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="Shoes" />
+                        </figure>
+                        <div class="card-body text-dark">
+                            <p class="text-xs">Friday, 31 August 2024</p>
+                            <h2 class="font-semibold text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                            <p class="text-xs">If a dog chews shoes whose shoes does he choose?</p>
+                            <div class="card-actions justify-between content-center">
+                                <p class="content-center">by <span class="font-semibold mb-0">Admin</span></p>
+                                <button class="btn btn-sm btn-info">Show Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <a href="#" class="btn btn-md btn-neutral text-light mx-auto">Show All Article</a>
+                </div>
+        </div>
+    </section>
+    <footer id="footer" class="bg-cyan-400">
+        <div class="md:px-32 bg-purple-200 p-6 rounded-t-3xl pt-24 dark:bg-green-600">
+            <div class="flex flex-col md:flex-row gap-6 mb-4">
+                <div class="flex-1 space-y-4 text-dark dark:text-light">
+                    <h1 class="text-2xl font-bold">Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus assumenda voluptates a, maxime molestiae sequi quae deleniti neque, inventore perspiciatis porro commodi molestias? Perspiciatis placeat illum amet vero deserunt architecto.</p>
+                    <p><strong>Telp:</strong> 0271-6498171</p>
+                    <p><strong>Email:</strong> testimoni@gmail.com</p>
+                    <p><strong>Jam Kerja:</strong> Monday - Friday, 09:00 - 21:00 WIB</p>
+                </div>
+                <div class="flex-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98 7142687202551!2d110.94937037221372!3d- 590530999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f1 1!3m3!1m2!1s0x2e654b99ab219bfd%3A0x4e63f4d5cebe448a!2sSMKN%202 ar!5e0!3m2!1sen!2sid!4v1730390200257!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
